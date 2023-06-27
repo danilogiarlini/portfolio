@@ -8,11 +8,13 @@ import NavBar from "./components/NavBar";
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
+
       <NavBar />
       <About />
       <Projects />
       <Skills />
       <Contact />
+      
     </main>
   );
 }
