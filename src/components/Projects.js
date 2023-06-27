@@ -20,7 +20,8 @@ export default function Projects() {
         <div className="flex flex-wrap -m-4">
           {projects.map((p) => (
             <a
-              href={p.link} 
+              href={p.link}
+              target="_blank" 
               key={p.image}
               className="sm:w-1/2 w-100 p-4 ">
               <div className="flex relative">
