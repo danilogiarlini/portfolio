@@ -31,16 +31,16 @@ export default function Skills() {
           Feel free to reach out by sending me a message!
           </p>
         </div>
-        <div className="flex lg:w-2/3 sm:mx-auto mb-8 -mx-2">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {contacts.map((contact) => (
-            <div key={contact.name} className="p-2 sm:w-1/2 w-full">
-              <a href={contact.link} target="_blank" className="bg-gray-800 border-b-2 border-gray-800 transition hover:border-white rounded flex p-4 h-full items-center">
+            <div key={contact.name} className="p-2 sm:w-1/3 w-full">
+              <a href={contact.link} target="_blank" className="flex place-content-center bg-gray-800 sm:text sm:w-full border-b-2 border-gray-800 transition hover:border-white rounded sm:text-center p-4 h-full items-center">
                 <img
                   src={contact.icon}
                   alt="logo"
-                  className="text-green-400 w-8 h-8 flex-shrink-0 mr-4"
+                  className="w-8 h-8 mr-4"
                 />
-                <span className="title-font font-medium text-white">
+                <span className="title-font font-medium text-gray-200">
                   {contact.name}
                 </span>
               </a>

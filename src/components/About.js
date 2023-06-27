@@ -7,19 +7,20 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm <b className=" text-green-400">Danilo</b>,
-            <br className="hidden lg:inline-block mt-4" />I love to build
+            <br className="hidden lg:inline-block mt-4" /> I love to build
             beautiful apps.
           </h1>
           <p className="mt-6 mb-8 leading-relaxed">
             {/* Welcome! I'm a Software Developer and Data Analyst. 
             I really love to code my way through the building of beautiful apps. On this space, 
             you can find some of the projects I made. If you are interested, feel free to send me a message! */}
-            Welcome to my portfolio! I'm a passionate Software Developer, deeply enthralled by the art of coding and crafting
-            beautiful applications. This space showcases a collection of my
-            projects, which reflect my dedication and creativity.
+            Welcome to my portfolio! I'm a passionate Software Developer, deeply
+            enthralled by the art of coding and crafting beautiful applications.
+            This space showcases a collection of my projects, which reflect my
+            dedication and creativity.
             <br />
-            <br /> If any of my projects catch your interest or if you have
-            any inquiries, please don't hesitate to reach out!
+            <br /> If any of my projects catch your interest or if you have any
+            inquiries, please don't hesitate to reach out!
           </p>
           <div className="flex justify-start mt-6">
             {/* <a
@@ -30,8 +31,9 @@ export default function About() {
             </a> */}
             <a
               href="#projects"
-              className="ml-4 inline-flex text-white bg-gray-600 border-0 py-2 px-6 focus:outline-none transition hover:bg-gray-700 hover:text-white rounded text-md"
+              className="ml-4 inline-flex text-white bg-gray-500 border-0 py-2 px-6 focus:outline-none transition hover:bg-gray-700 hover:text-white rounded text-md"
             >
+              <img src="./github-mark-white.png" alt="github-logo" className="flex w-6 h-6 -ml-2 mr-4" />
               See my projects
             </a>
             <a
@@ -45,7 +47,7 @@ export default function About() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6 mr-2"
+                className="-ml-2 w-6 h-6 mr-2"
               >
                 <path
                   strokeLinecap="round"
